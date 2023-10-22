@@ -5,8 +5,6 @@ module.exports = defineConfig({
 
 module.exports = {
   devServer: {
-    allowedHosts: [
-      'manage-tasks-ucko.onrender.com/'
-    ],
+    disableHostCheck: true
   },
 };
